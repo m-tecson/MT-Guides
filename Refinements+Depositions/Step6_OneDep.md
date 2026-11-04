@@ -8,3 +8,14 @@ This step discusses the deposition process using OneDep and PDB Extract. Here ar
 6. Your solved structure
 
 Total files: 7 (2 half maps)
+
+For your maps and masks note the following:
+* Pixel size (dependent on collection, available on CryoSPARC and in the ```.mrc``` header)
+* Contour (available in ChimeraX)
+  * Contour for FSC mask is always 1
+
+In addition to those 7 files, it is recommended to also have an ORCID to easily access all depositions and share it with all other authors. To create an ORCID visit [orcid.org](https://orcid.org/)
+
+After ensuring you have all files and your ORCID, discuss with Dr. Greene the deposition strategy. Many cryo-EM data collections will have similar settings so you can import most fields from an initial or previous depositions. Additionally, you may gather cryo-EM  collection metadata from an deposited ```.cif``` file using [PDB extract](https://pdb-extract.wwpdb.org/) Option A. \
+
+If you have a master metadata file, it is recommended to combine your final structure from the previous step using [PDB extract](https://pdb-extract.wwpdb.org/) Option B. Additionally, Option B is particularly useful for repairing broken ```.pdb``` files for deposition.
