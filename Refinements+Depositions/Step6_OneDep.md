@@ -6,4 +6,5 @@ This step discusses the deposition process using OneDep and PDB Extract. Here ar
 4. The GSFSC curve as .xml from CryoSPARC
 5. A picture of the map (this can be taken from ChimeraX)
 6. Your solved structure
+
 Total files: 7 (2 half maps)
