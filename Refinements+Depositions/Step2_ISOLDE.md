@@ -17,5 +17,5 @@ You may also tug on atoms and residues to fix rotamers or move the backbone into
 
 Before saving, I recommend deleting hydrogens using the command ```del H```. Hydrogens add certain complexity with ligands and their corresponding restraint files.
 
-After you are happy with results from ISOLDE refinement, we can proceed to Phenix Real Space Refinement. Save your ISOLDE refined structure as `.cif`.
-![Save](../assets/Refinements+Dep/Step2_ISOLDE_Save.gif)
+After you are happy with results from ISOLDE refinement, we can proceed to Phenix Real Space Refinement. Save your ISOLDE refined structure as `.cif`.\
+![Save](../assets/Refinements+Dep/Step2_ISOLDE_Save_1.gif)
