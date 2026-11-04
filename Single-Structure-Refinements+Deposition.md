@@ -1,6 +1,6 @@
-#Single Structure Refinement and PDB Deposition Guide
+# Single Structure Refinement and PDB Deposition Guide
 
-###Background: 
+### Background: 
 This document outlines a general guide on approaching the full PDB deposition pipeline after a cryo-EM map is solved. In the Greene Lab we use 3 primary tools for single structure refinements: Phenix, ISOLDE, and coot.
 
 Phenix (Python-based Hierarchical Environment for Integrated Xtallography) is available freely on SBGrid as well as through an academic license by providing an institutional email address (https://www.phenix-online.org/download)
@@ -11,8 +11,8 @@ Coot has multiple distributions including Coot ver 1.x, Coot ver 0.9.x, and Band
 
 Phenix has validation reports available, however, the PDB can be stricter on certain outliers. The RCSB/PDB provides a validation server as well: https://validate-rcsb-4.wwpdb.org/
 
-###Pipeline: 
-he typical refinement pipeline would be the following:
+### Pipeline: 
+The typical refinement pipeline would be the following:
 Unless an ab-initio reconstruction, you can gather a starting structure from the PDB and align it with your EM map
 Run ISOLDE, primarily working on ramachandran plot outliers
 Input into Phenix Real Space Refinement
@@ -21,9 +21,9 @@ Input in Coot for selective Real Space Refinement and Regularization
 Steps 2-4 can be repeated several times until the Molprobity and PDB validation reports are in-line with the underlying chemistry.
 
 Before continuing, it is important to note the following:
-The symmetry operator applied to your reconstruction
-The resolution of your reconstruction
-The quality of your map
+1) The symmetry operator applied to your reconstruction
+2) The resolution of your reconstruction
+3) The quality of your map
 
 The symmetry operator is particularly important as it may speed up refinement if isolated to the asymmetric unit. Furthermore, you can expand symmetry in ChimeraX prior to deposition.
 
