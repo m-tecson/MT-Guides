@@ -6,5 +6,7 @@ Current OS: MacOS 27.2 (Golden Gate)
 
 Guides are completed on MacOS, but should be similar on Linux and Windows systems. Submenus may be sorted differently in these operating systems.
 
+Images are ```gifs```, feel free to click the image to access the video to orient yourself to the particular program.
+
 Available guides:\
 [Single Structure Refinement to PDB Deposition](/Refinements+Depositions/)
