@@ -15,7 +15,7 @@ Drag and drop file from Finder/File Manager:
 Next, drag and drop your map from Finder/File Manager then using the Model Pane select your structure. Using the right mouse options, translate it closer to the map, rotate and move as necessary. Navigate to tools -> volume data -> Fit in Map to fit your structure into the map. 
 ![Align to Map](../assets/Refinements+Dep/Step1.5_Alignment.gif)
 
-You may also use CLI: Fitmap #1 inMap #2. This assumes #1 is your structure and #2 is your cryo-EM map.
+You may also use CLI: ```Fitmap #1 inMap #2.``` This assumes #1 is your structure and #2 is your cryo-EM map.
 
 **IF YOU HAVE A MUTANT, NOW IS THE TIME TO INTRODUCE THE MUTATION**
 You can introduce a mutation to the WT structure by using the command ```swapaa :residue# AA 3 letter code``` i.e. R341C mutation in GS would be ```swapaa :341 cys```. This will introduce the Arg -> Cys mutation to all 10 subunits.
