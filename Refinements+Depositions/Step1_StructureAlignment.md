@@ -27,10 +27,10 @@ Lastly, save your now aligned structure for use in downstream steps. Be sure to 
 You can also open the newly saved file to ensure alignment.
 ![Confirm alignment](../assets/Refinements+Dep/Step1.8_ConfirmAlignment.gif)
 
-After confirming alignment, you may now delete asymmetric subunits as needed. Below are a rough guide corresponding to human glutamine synthetase.
-C1 = Independent subunits, do not delete any monomers
-C5 = Chains A & G are the asymmetric units (one subunit from each ring) ```del /B-E, F, H-J```
-D5 = All subunits are identitcal, can delete all but chain A ```del /B-J```
+After confirming alignment, you may now delete asymmetric subunits as needed. Below are a rough guide corresponding to human glutamine synthetase.\
+C1 = Independent subunits, do not delete any monomers\
+C5 = Chains A & G are the asymmetric units (one subunit from each ring) ```del /B-E, F, H-J```\
+D5 = All subunits are identitcal, can delete all but chain A ```del /B-J```\
 
 Confirm with Dr. Greene before proceeding.
 
