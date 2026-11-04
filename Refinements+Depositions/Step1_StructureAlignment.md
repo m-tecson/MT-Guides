@@ -6,7 +6,7 @@ In this case, we will be using wild type human glutamine synthetase turnover (PD
 With ChimeraX open, open your structure from the PDB using the open command alongside the PDB ID OR if you have your model saved drag that into your ChimeraX session:
 
 Using Command Line: ```Open PDB ID```
-[![Open PDB via CLI](../assets/Refinements+Dep/thumbnail/Step1_CLI_Import-still.png](../assets/Refinements+Dep/Step1_CLI_Import.gif)
+[![Open PDB via CLI](../assets/Refinements+Dep/thumbnail/Step1_CLI_Import-still.png)](../assets/Refinements+Dep/Step1_CLI_Import.gif)
 Command input: ```open 9oto```
 
 Drag and drop file from Finder/File Manager:
