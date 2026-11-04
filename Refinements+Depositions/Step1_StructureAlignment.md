@@ -20,7 +20,7 @@ You may also use CLI: ```Fitmap #1 inMap #2.``` This assumes #1 is your structur
 **IF YOU HAVE A MUTANT, NOW IS THE TIME TO INTRODUCE THE MUTATION**\
 You can introduce a mutation to the WT structure by using the command ```swapaa :residue# AA 3 letter code``` i.e. R341C mutation in GS would be ```swapaa :341 cys```. This will introduce the Arg -> Cys mutation to all 10 subunits.
 
-Lastly, save your now aligned structure for use in downstream steps. Be sure to uncheck "use untransformed coordinates"
+Lastly, save your now aligned structure for use in downstream steps. Be sure to uncheck "use untransformed coordinates" This guide will be using a generic file name, but it is recommended to name it your variant + ligands + map ID/job number ```WT_turnover_J348.cif``` or ```R324C_MSO_J348.cif```
 ![Save transformed structure](../assets/Refinements+Dep/Step1.7_SaveAlignment.gif)
 
 You can also open the newly saved file to ensure alignment.
