@@ -2,7 +2,7 @@
 As mentioned in the [background](Background.md), ISOLDE is available on both SBGrid and the Toolshed for ChimeraX. It is recommended to go through the Toolshed to ensure that ISOLDE is installed in the proper place and path.
 
 To install ISOLDE, navigate to tools -> more tools. This will open the Toolshed tab, you can search for ISOLDE or select EM on the side panel where you can find ISOLDE listed there. ISOLDE is also available on the home page as a 'Top Downloaded Bundle'
-
+![install](../assets/Refinements+Dep/Step2_ISOLDEDownload.gif)
 
 Restart ChimeraX and following prompts accordingly.
 
