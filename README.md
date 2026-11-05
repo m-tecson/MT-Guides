@@ -10,3 +10,10 @@ Thumbnails are ```gifs``` or videos that can be viewed to see exact actions comp
 
 Available guides:\
 [Single Structure Refinement to PDB Deposition](/Refinements+Depositions/)
+    [Step 1 Structure Alignment](/Refinements+Depositions/Step1_StructureAlignment.md)
+    [Step 2 ISOLDE Refinement in ChimeraX](/Refinements+Depositions/Step2_ISOLDE.md)
+    [Step 3 Real-Space Refinement and Validation Reports in Phenix](/Refinements+Depositions/Step3_Phenix.md)
+    [Step 4 Localized Refinement Utilizing Coot](/Refinements+Depositions/Step4_Coot.md)
+    [Step 5 Symmetry Expansion in ChimeraX](/Refinements+Depositions/Step5_SymmetryExpansion.md)
+    [Step 6 Initiating Deposition and Depositing Structure into the PDB](/Refinements+Depositions/Step6_OneDep.md)
+[EMMIVox Single Structure and Ensemble Modeling](/Ensemble+NCSA_Delta_Guide/)
