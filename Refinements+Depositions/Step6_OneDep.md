@@ -40,11 +40,9 @@ First select your region then enter appropriate information. The code provided w
 ## Completing the deposition process
 After initiating a deposition session, you must upload the 7 files listed previously. The GSFSC `.xml` file is **OPTIONAL** but we will make every attempt to provide GSFSC data. After you upload and begin processing the data, an upload summary will be provided.
 
-On the upload page, you may also import deposition metadata from another session if provided the necessary information (Your list of Depositions that you have worked on **OR** Deposition ID and password)
+On the upload page, you may also import deposition metadata from another session if provided the necessary information (Your list of Depositions that you have worked on **OR** Deposition ID and password). If you completed preprocessing (Option A **AND** B) through PDB Extract, this step is not necessary.
 
 ![importmeta](../assets/Refinements+Dep/screenshots/ImportData_OneDep.png)
-
-If you completed preprocessing (Option A **AND** B) through PDB Extract, this step is not necessary.
 
 The upload summary will list any cis-prolines in the structure, ensure that the number is as expected and aligns with the cryo-EM density. Additionally, any major geometry outliers not detected in previous Phenix validations will be listed here. If there are any outliers listed, return to Coot or Phenix to correct the outliers.
 
