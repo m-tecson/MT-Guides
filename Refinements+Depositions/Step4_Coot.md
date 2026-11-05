@@ -26,16 +26,16 @@ It's recommended to have the Phenix or PDB validation report or notes of outlier
 * Bond Angle: Chain G, Residue 105 Asn C, N, Residue 104 Tyr N
 
 **Fixing Bond Length of Side Chain**\
-Recommended to use Real-space refinement to try and fit sidechain to density. A report window is opened, all categories should be green. If not, feel free to tug on the side chain or backrub the rotamer depending on the category requiring adjustment.
+Recommended to use Real-space refinement to try and fit sidechain to density. A report window is opened, all categories should be green. If not, feel free to left click to tug on the side chain or select the backrub the rotamer option in the validation pop-up depending on the category requiring adjustment.
 
-Selecting the tool, you will be required to make 2 selections. If you are refining only a specific residue and sidechain such as residue 68, you can double click on the CA as shown.
+Clicking on the Real-space refinement icon, you will be required to make 2 selections. If you are refining only a specific residue and sidechain such as residue 68, you can double click on the CA as shown.
 
 ![RSR_SC](../assets/Refinements+Dep/Step4_Coot_RSR_SC.gif)
 
 **Fixing Bond Angle of Backbone**\
-Can use either Real-space refinement or regularization. A report window is opened, all categories should be green. If not, feel free to tug on the backbone or backrub the rotamer depending on the category requiring adjustment.
+Can use either Real-space refinement or regularization. A report window is opened, all categories should be green. If not, feel free to left click to tug on the backbone or select the backrub the rotamer option in the validation pop-up depending on the category requiring adjustment.
 
-After selecting the tool, you will be required to make 2 selections. Since we want to correct bond angle outliers of the backbone, we will select the initial residue (Residue 104 N) then use the 'Go to' atom window to locate the following atom past the peptide bond (Residue 105 C).
+Clicking on the Real-space refinement or Regularization icon, you will be required to make 2 selections. Since we want to correct bond angle outliers of the backbone, we will select the initial residue (Residue 104 N) then use the 'Go to' atom window to locate the following atom past the peptide bond (Residue 105 C).
 
 ![RSR/R_BB](../assets/Refinements+Dep/Step4_Coot_RSR-R_BB.gif)
 

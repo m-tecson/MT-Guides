@@ -4,7 +4,7 @@ The following files are required to run Real Space Refinement and Comprehensive 
   * Note your resolution from CryoSPARC
 * Your ISOLDE refined structure (`.cif`) from Step 2
 * Restraint files for any ligands
-  * Some restraint files are available on BOX
+  * Some restraint files are available on BOX\
 
   If you do not have restraint files you can generate them through two means.
   1. Phenix eLBOW

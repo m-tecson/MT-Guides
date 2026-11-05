@@ -12,7 +12,7 @@ Open your map and aligned structure, select these in ISOLDE as prompted:
 Next, go to the Validate tab and check for any unparameterized residues before proceeding. It will prompt you to add hydrogens, feel free to select OK and proceed. After, double check to ensure all residues are parameterized before continuing. Next, open the Ramachandran plot. Select residues that are recognized as outliers then press **Start Simulation**. Run the simulation for several seconds (10-15s), you can pause the simulation, select Stop and Keep, or Stop and Discard if you are unhappy with initial refinement.
 [![ISOLDERefinement](../assets/Refinements+Dep/thumbnail/Step2_ISOLDERama-still.png)](../assets/Refinements+Dep/Step2_ISOLDERama.gif)
 
-You may also tug on atoms and residues to fix rotamers or move the backbone into the density:
+You may also tug on atoms and residues using right click to fix rotamers or move the backbone into the density:
 [![Tug](../assets/Refinements+Dep/thumbnail/Step2_ISOLDE_Tug-still.png)](../assets/Refinements+Dep/Step2_ISOLDE_Tug.gif)
 
 Before saving, I recommend deleting hydrogens using the command ```del H```. Hydrogens add certain complexity with ligands and their corresponding restraint files.

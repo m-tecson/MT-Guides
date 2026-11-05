@@ -16,7 +16,7 @@ For your maps and masks note the following:
 
 In addition to those 7 files, it is recommended to also have an ORCID to easily access all depositions and share it with all other authors. To create an ORCID visit [orcid.org](https://orcid.org/)
 
-After ensuring you have all files and your ORCID, discuss with Dr. Greene or your team the deposition strategy. Many cryo-EM data collections will have similar settings so you can import most fields from an initial or previous deposition session. Additionally, you may gather cryo-EM  collection metadata from an deposited ```.cif``` file using [PDB extract](https://pdb-extract.wwpdb.org/) Option A.
+After ensuring you have all files and your ORCID, discuss with the PI or your team the deposition strategy. Many cryo-EM data collections will have similar settings so you can import most fields from an initial or previous deposition session. Additionally, you may gather cryo-EM  collection metadata from an deposited ```.cif``` file using [PDB extract](https://pdb-extract.wwpdb.org/) Option A.
 
 If you have a master metadata file, it is recommended to combine your final structure from the previous step using [PDB extract](https://pdb-extract.wwpdb.org/) Option B. Additionally, Option B is particularly useful for repairing and converting broken ```.pdb``` files to the ```.cif``` format for deposition.
 
@@ -48,7 +48,7 @@ The upload summary will list any cis-prolines in the structure, ensure that the 
 
 If there are no outliers, proceed to the admin folder and information. Fill out to the best of your ability, contact co-authors as necessary to gather their ORCID. By inputting their ORCID they will also have access to the deposition session will be able to help you as needed. **NOTE:** The author list does not have to be the same as the paper, if you are not the first author be sure to list the first author(s) at the minimum.
 
-Consult with Dr. Greene regarding grant information and release status.
+Consult with the PI regarding grant information and release status.
 
 Feel free to use `PDB: 9OTO` as a guide for naming the Entry title & authors page.
 

@@ -1,5 +1,5 @@
 # Selecting your structure and aligning to a cryo-EM map
-Consult with Dr. Greene prior to selecting your structure, you may select a solved crystal structure in the PDB or may be required to do ab-initio model building. This guide will assume you already have your model built and selected.
+Consult with the PI prior to selecting your structure, you may select a solved crystal structure in the PDB or may be required to do ab-initio model building. This guide will assume you already have your model built and selected.
 
 In this case, we will be using wild type human glutamine synthetase turnover (PDB ID = 9OTO) as an example.
 
@@ -31,6 +31,6 @@ C1 = Independent subunits, do not delete any monomers\
 C5 = Chains A & G are the asymmetric units (one subunit from each ring) ```del /B-E, F, H-J```\
 D5 = All subunits are identitcal, can delete all but chain A ```del /B-J```\
 
-Confirm with Dr. Greene before proceeding.
+Confirm with the PI before proceeding.
 
 After structures are well-refined according to Molprobity, we will symmetry expand in ChimeraX.

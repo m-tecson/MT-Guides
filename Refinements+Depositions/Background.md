@@ -13,10 +13,10 @@ Phenix has validation reports available, however, the PDB can be stricter on cer
 
 ### Pipeline: 
 The typical refinement pipeline would be the following:
-Unless an ab-initio reconstruction, you can gather a starting structure from the PDB and align it with your EM map
-Run ISOLDE, primarily working on ramachandran plot outliers
-Input into Phenix Real Space Refinement
-Input in Coot for selective Real Space Refinement and Regularization
+1) Unless an ab-initio reconstruction, you can gather a starting structure from the PDB and align it with your EM map
+2) Run ISOLDE, primarily working on ramachandran plot outliers
+3) Input into Phenix Real Space Refinement
+4) Input in Coot for selective Real Space Refinement and Regularization
 
 Steps 2-4 can be repeated several times until the Molprobity and PDB validation reports are in-line with the underlying chemistry.
 
@@ -31,7 +31,7 @@ The resolution is important to note as it is an input required for Phenix.
 
 The quality of your map is important as it will determine map-to-model Q-score and whether or not dynamic loops must be deleted. It is necessary to be wary of heterogenous reconstructions as we are unsure of the backbone and sidegroups 'true conformation. A poor quality map with strong structural conclusions will be heavily scrutinized during review.
 
-The current guide was updated and written by Markus on November 4th, 2026\
+The current guide was updated and written by Markus on November 5th, 2026\
 Current OS: MacOS 27.2 (Golden Gate)
 
 Other OS (Linux-based or Windows) will have similar steps, though certain options may be hidden in different submenus.
