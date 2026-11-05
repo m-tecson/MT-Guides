@@ -56,3 +56,5 @@ As of 11/04/2026 on Phenix ver. 2.2.1-6174, the summary page does not accurately
   For example, if your initial run was on `9OTO_J348_aligned_ISOLDE.cif` it will yield the following output `9OTO_J348_aligned_ISOLDE_real_space_refined_001.cif`. This output can be used as the new input file for the next iteration. More generally, the `_real_space_refined_xxx.cif` file will be the input for the next run.
 
   If outliers are <10, it is recommended to proceed to step 4 to selectively refine those regions compared to iterating through RSR several more times.
+
+Take note of the outliers or clashes reported or have Phenix open as you proceed to the next step. These values and data will be important for Coot and navigating to the outliers.
