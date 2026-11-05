@@ -50,7 +50,7 @@ If there are no outliers, proceed to the admin folder and information. Fill out 
 
 Consult with Dr. Greene regarding grant information and release status.
 
-Feel free to use `PDB: 9OTO` as a guide on for naming the Entry title & authors page.
+Feel free to use `PDB: 9OTO` as a guide for naming the Entry title & authors page.
 
 ## Notes
 It may take 30-40 minutes for a preliminary validation report to be provided to you. Any major geometry outlier will be flagged in this tab as well as in the `.pdf` report provided to you (accessible by download in the same tab). Fix in Coot or Phenix as necessary.
