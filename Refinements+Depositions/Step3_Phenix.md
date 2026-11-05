@@ -6,7 +6,7 @@ The following files are required to run Real Space Refinement and Comprehensive 
 * Restraint files for any ligands
   * Some restraint files are available on BOX
 
-  If you do not have restraint files you can generate them through two means. \
+  If you do not have restraint files you can generate them through two means.
   1. Phenix eLBOW
   2. Grade2/Grade Web Server
 
