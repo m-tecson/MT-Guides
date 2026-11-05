@@ -16,6 +16,7 @@ I heavily recommend moving your Phenix refined structure and map to a folder on 
 [![file->open](../assets/Refinements+Dep/thumbnail/Step4_Coot_Import1-still.png)](../assets/Refinements+Dep/Step4_Coot_Import1.gif)
 
 You may also open your coordinates and map using the toolbar options.
+![toolbar_still](../assets/Refinements+Dep/screenshots/Coot_Toolbar.png)
 
 [![toolbar](../assets/Refinements+Dep/thumbnail/Step4_Coot_Import2-still.png)](../assets/Refinements+Dep/Step4_Coot_Import2.gif)
 
