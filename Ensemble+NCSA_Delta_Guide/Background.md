@@ -1,0 +1,2 @@
+# Single Structure Refinement and Ensemble Modeling Utilizing EMMIVox on NCSA Delta
+The following folder will walk you through a step-by-step guide on utilizing [EMMIVox](https://github.com/COSBlab/EMMIVox) to understand the conformational heterogeneity of our cryo-EM maps. 
