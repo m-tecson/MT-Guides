@@ -19,3 +19,5 @@ Before saving, I recommend deleting hydrogens using the command ```del H```. Hyd
 
 After you are happy with results from ISOLDE refinement, we can proceed to Phenix Real Space Refinement. Save your ISOLDE refined structure as `.cif`.\
 [![Save](../assets/Refinements+Dep/thumbnail/Step2_ISOLDE_Save_1-still.png)](../assets/Refinements+Dep/Step2_ISOLDE_Save_1.gif)
+
+After saving as a `.cif` file, you can now proceed with real space refinement in Phenix.

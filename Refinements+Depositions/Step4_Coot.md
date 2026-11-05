@@ -21,7 +21,7 @@ You may also open your coordinates and map using the toolbar options.
 [![toolbar](../assets/Refinements+Dep/thumbnail/Step4_Coot_Import2-still.png)](../assets/Refinements+Dep/Step4_Coot_Import2.gif)
 
 ## Refining in Coot
-It's recommended to have the Phenix or PDB validation report or notes of outliers in the background so you know which residues and atoms you need to navigate to. In this example we will need to correct the following outliers:\
+It's recommended to have the Phenix or PDB validation report or notes of outliers in the background so you know which residues and atoms you need to navigate to. In this example we will need to correct the following outliers:
 * Bond Length: Chain A, Residue 68 Leu CA, CB, CG
 * Bond Angle: Chain G, Residue 105 Asn C, N, Residue 104 Tyr N
 

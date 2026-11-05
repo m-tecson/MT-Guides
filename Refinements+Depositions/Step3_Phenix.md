@@ -58,3 +58,6 @@ As of 11/04/2026 on Phenix ver. 2.2.1-6174, the summary page does not accurately
   If outliers are <10, it is recommended to proceed to step 4 to selectively refine those regions compared to iterating through RSR several more times.
 
 Take note of the outliers or clashes reported or have Phenix open as you proceed to the next step. These values and data will be important for Coot and navigating to the outliers.
+
+## Running Comprehensive Cryo-EM Validation
+This will require the same files as a Phenix RSR run. Instead of opening an RSR window, select the validation header to expand and select Comprehensive validation (cryo-EM) to open a new validation window.
