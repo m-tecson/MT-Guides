@@ -53,6 +53,6 @@ As of 11/04/2026 on Phenix ver. 2.2.1-6174, the summary page does not accurately
   ## Iterating through RSR
   If there are still a significant amount of outliers listed, you may run through RSR several times to correct those errors until you get a satisfactory Molprobity report. To repeat on your new structure, just replace your current model with the model output from the previous job.
 
-  Example: Initial run on `9OTO_J348_aligned_ISOLDE.cif` yields the following output `9OTO_J348_aligned_ISOLDE_real_space_refined_001.cif`, the `_real_space_refined_xxx.cif` file will be the input for the next run.
+  For example, if your initial run was on `9OTO_J348_aligned_ISOLDE.cif` it will yield the following output `9OTO_J348_aligned_ISOLDE_real_space_refined_001.cif`. This output can be used as the new input file for the next iteration. More generally, the `_real_space_refined_xxx.cif` file will be the input for the next run.
 
   If outliers are <10, it is recommended to proceed to step 4 to selectively refine those regions compared to iterating through RSR several more times.
