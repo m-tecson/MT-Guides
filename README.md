@@ -16,4 +16,4 @@ Available guides:\
   4. [Step 4 Localized Refinement Utilizing Coot](/Refinements+Depositions/Step4_Coot.md)\
   5. [Step 5 Symmetry Expansion in ChimeraX](/Refinements+Depositions/Step5_SymmetryExpansion.md)\
   6. [Step 6 Initiating Deposition and Depositing Structure into the PDB](/Refinements+Depositions/Step6_OneDep.md)\
-[EMMIVox Single Structure and Ensemble Modeling](/Ensemble+NCSA_Delta_Guide/)
+* [EMMIVox Single Structure and Ensemble Modeling](/Ensemble+NCSA_Delta_Guide/)
