@@ -17,3 +17,8 @@ You can save model #4 as both as ```.pdb``` and ```.cif``` file. Before continui
 
 Click thumbnail to view video on symmetry expansion in ChimeraX.
 [![symexpansiondemo](../assets/Refinements+Dep/thumbnail/Step5_ChimeraXSymExpansion-thumbnail.png)](https://github.com/user-attachments/assets/c0911b2e-d2e1-4e0f-b3e8-d357dfa313af)
+
+## Check before proceeding to Step 6
+Before beginning a deposition session, be sure to check that secondary structures are properly modeled. If not, run `dssp #1` which will then properly model secondary structures. Save as both a `.cif` and `.pdb`.
+
+Any time the model is ran through Phenix or Coot, be sure to check secondary structure modeling before proceeding (or returning) to the deposition session.
