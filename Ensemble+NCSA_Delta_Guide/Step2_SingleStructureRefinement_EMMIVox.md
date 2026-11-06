@@ -6,16 +6,16 @@ Some file management is crucial before running EMMIVox. Depending on approach, y
 You may also set up directories on NCSA Delta, however, consistency depends on server load and Proxy ID errors are frequent requiring a lot of patience.
 
 Below is a tree of the file structure:\
-project_name (ex. WT_hGS_turnover_C1)
-├── 1-refinement
-├── 0-building
-│   ├── 1-map-preparation
-│   ├── 2-equilibration
-│   ├── 3-map-scaling
-│   ├── 4-production
-│   └── 5-analysis (NOT REQUIRED)
-└── 2-ensemble
-    ├── 0-production
+project_name (ex. WT_hGS_turnover_C1)\
+├── 1-refinement\
+├── 0-building\
+│   ├── 1-map-preparation\
+│   ├── 2-equilibration\
+│   ├── 3-map-scaling\
+│   ├── 4-production\
+│   └── 5-analysis (NOT REQUIRED)\
+└── 2-ensemble\
+    ├── 0-production\
     └── 1-analysis (REQUIRED)
 
 You may also find an example directory [here](/Ensemble+NCSA_Delta_Guide/WT_hGS_turnover_C1_SAMPLE/)\
