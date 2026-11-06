@@ -10,7 +10,7 @@ Step 1 requires your satisfactory structure (`.pdb` legacy-format preferred)\
 Step 2 requires inputs from CHARMM-GUI, your consensus map, half maps A and B, and your satisfactory structure from step 1\
 Step 3 requires data from step 2
 
-Discuss approach with the PI before proceeding.
+Discuss approach with the PI and create an account with your institutional email before proceeding.
 
 Software versions as of 11/05/2026:
 PLUMED-2.10.0\
