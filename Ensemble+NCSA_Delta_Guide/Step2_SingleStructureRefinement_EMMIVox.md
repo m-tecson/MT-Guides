@@ -9,15 +9,15 @@ Below is a tree of the file structure:\
 ```
 project_name (ex. WT_hGS_turnover_C1)
 ├── 1-refinement
-├── 0-building
-│   ├── 1-map-preparation
-│   ├── 2-equilibration
-│   ├── 3-map-scaling
-│   ├── 4-production
-│   └── 5-analysis (NOT REQUIRED)
+│   ├── 0-Building
+│   ├── 1-Map-Preparation
+│   ├── 2-Equilibration
+│   ├── 3-Map-Scaling
+│   ├── 4-Production
+│   └── 5-Analysis (NOT REQUIRED)
 └── 2-ensemble
-    ├── 0-production
-    └── 1-analysis (REQUIRED)
+    ├── 0-Production
+    └── 1-Analysis (REQUIRED)
 ```
 
 You may also find an example directory [here](/Ensemble+NCSA_Delta_Guide/WT_hGS_turnover_C1_SAMPLE/)\
