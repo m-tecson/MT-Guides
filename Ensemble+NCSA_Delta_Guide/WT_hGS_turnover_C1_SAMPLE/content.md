@@ -1,0 +1,2 @@
+# Content
+This is an example project working directory which you can find in NCSA Delta. This is to assist in creating a similar file structure locally before importing onto the server. Additionally, will include any `.mdp` files that were edited as well as `.slurm` files.
