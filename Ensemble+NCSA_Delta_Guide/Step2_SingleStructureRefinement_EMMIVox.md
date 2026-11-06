@@ -7,16 +7,16 @@ You may also set up directories on NCSA Delta, however, consistency depends on s
 
 Below is a tree of the file structure:\
 ```
-project_name (ex. WT_hGS_turnover_C1)\
-├── 1-refinement\
-├── 0-building\
-│   ├── 1-map-preparation\
-│   ├── 2-equilibration\
-│   ├── 3-map-scaling\
-│   ├── 4-production\
-│   └── 5-analysis (NOT REQUIRED)\
-└── 2-ensemble\
-    ├── 0-production\
+project_name (ex. WT_hGS_turnover_C1)
+├── 1-refinement
+├── 0-building
+│   ├── 1-map-preparation
+│   ├── 2-equilibration
+│   ├── 3-map-scaling
+│   ├── 4-production
+│   └── 5-analysis (NOT REQUIRED)
+└── 2-ensemble
+    ├── 0-production
     └── 1-analysis (REQUIRED)
 ```
 
