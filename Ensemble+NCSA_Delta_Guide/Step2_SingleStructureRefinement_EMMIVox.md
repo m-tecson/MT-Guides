@@ -5,7 +5,7 @@ Some file management is crucial before running EMMIVox. Depending on approach, y
 
 You may also set up directories on NCSA Delta, however, consistency depends on server load and Proxy ID errors are frequent requiring a lot of patience.
 
-Below is a tree of the file structure:\
+Below is a tree of the file structure:
 ```
 project_name (ex. WT_hGS_turnover_C1)
 ├── 1-refinement
