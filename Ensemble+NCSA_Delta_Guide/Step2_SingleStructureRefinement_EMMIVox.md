@@ -60,7 +60,7 @@ Then run `sbatch 0-building.slurm`, this will send the job to the scheduler. You
 
 You do not need to wait for each job to finish. You can also queue jobs back to back by adding the `--dependency=afterok:[jobid]` flag. This flag tells the scheduler, only run this script if the previous job ran successfully.
 
-For example:\
+For example:
 ```
 (base) [mtecson@dt-login01 0-Building]$ sbatch 0-building.slurm
 Submitted batch job 2337924
