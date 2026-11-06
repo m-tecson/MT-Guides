@@ -41,7 +41,8 @@ Visit the [Globus website](https://www.globus.org/) for more information. If you
 Certain Python dependencies are required for EMMIVox scripts, to ensure that all scripts successfully run we need to establish a specific build of conda.
 
 Access a login node using the [Delta OnDemand terminal or SSH](https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/login.html#ssh-keyboard-interactive). Once you have successfully logged into compute resources, run:\
-`/sw/external/python/miniforge3-pytorch-2.7.0/bin/conda init bash`\
+`/sw/external/python/miniforge3-pytorch-2.7.0/bin/conda init bash`
+
 This will add this specific build of conda to your `~/.bashrc`. After running, either refresh your terminal window if accessed through Delta OnDemand or run `source ~/.bashrc` to refresh your session.
 
 Next, we will install necessary dependencies by running:\
