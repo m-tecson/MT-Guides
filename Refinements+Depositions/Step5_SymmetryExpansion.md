@@ -16,7 +16,8 @@ This will make copies of your asymmetric unit (model #2) then make a new model (
 You can save model #4 as both as ```.pdb``` and ```.cif``` file. Before continuing, it is recommended to run the full structure through Phenix Comprehensive EM Validation or the wwPDB validation server before proceeding to step 6. After receiving a satisfactory report, you may continue with step 6, deposition. If not, revisit any outliers in Coot.
 
 Click thumbnail to view video on symmetry expansion in ChimeraX.
-[▶ Watch the video](https://github.com/markust04/MT-Refinement-Ensemble-Guides/raw/main/assets/Refinements%2BDep/fullvideo/Step5_ChimeraXSymExpansion_2.mp4)
+
+https://github.com/user-attachments/assets/43cc8842-71dd-4589-8a68-9b8ccfbb2cd1
 
 ## Check before proceeding to Step 6
 Before beginning a deposition session, be sure to check that secondary structures are properly modeled. If not, run `dssp #1` which will then properly model secondary structures. Save as both a `.cif` and `.pdb`.
