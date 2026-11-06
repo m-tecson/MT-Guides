@@ -26,7 +26,7 @@ In these directories, you will also find sample `.slurm` scripts to queue jobs o
 This guide won't be as detailed as the EMMIVox tutorial written [here](https://github.com/COSBlab/EMMIVox/tree/main/tutorials/1-refinement)
 
 ## Data Import
-As previously described, there are two ways to import data:
+As previously described, there are three ways to import data:
 1) `rsync`
 2) `scp`
 2) Globus
