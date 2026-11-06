@@ -36,3 +36,36 @@ As previously described, there are three ways to import data:
 [NCSA Delta documentation](https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data) describes `rsync` and `scp` here as well as a more detailed guide on utilizing Globus for large file transfer.
 
 Visit the [Globus website](https://www.globus.org/) for more information. If you are creating an account with Globus, utilize your institutional email.
+
+## Initializing the Environment
+Certain Python dependencies are required for EMMIVox scripts, to ensure that all scripts successfully run we need to establish a specific build of conda.
+
+Access a login node using the [Delta OnDemand terminal or SSH](https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/login.html#ssh-keyboard-interactive). Once you have successfully logged into compute resources, run:\
+`/sw/external/python/miniforge3-pytorch-2.7.0/bin/conda init bash`\
+This will add this specific build of conda to your `~/.bashrc`. After running, either refresh your terminal window if accessed through Delta OnDemand or run `source ~/.bashrc` to refresh your session.
+
+Next, we will install necessary dependencies by running:\
+`pip install MDAnalysis==2.7.0 scipy==1.18.0 mrcfile biopython`
+
+After running these commands, you may proceed to processing your data.
+
+## Notes on running sbatch jobs on NCSA Delta
+Total time to complete each task will depend on the system size and what atoms/subunits are defined during these steps. It is a good rule of thumb to use `.slurm` scripts and `sbatch` over terminal to queue jobs. All slurm scripts are adapted from the EMMIVox guide.
+
+It's recommended to write `.slurm` scripts before doing any processing, example scripts are provided in the [sample directory](/Ensemble+NCSA_Delta_Guide/WT_hGS_turnover_C1_SAMPLE/). After writing `.slurm` scripts, import them to their respective 'step directory' (e.g. project_directory/1-refinement/0-Building).
+
+To run a job using sbatch, first navigate to the particular 'step directory' by running: `cd project_directory/1-refinement/0-Building`.
+
+Then run `sbatch 0-building.slurm`, this will send the job to the scheduler. You will be notified via email when the job hits a compute node, if it fails, or if it successfully completes. The scheduler will also provide you a `jobid`. Keep note of this number as it is crucial for queuing back to back jobs. If you forgot you may also run `squeue -u $user` to see what jobs you have queued.
+
+You do not need to wait for each job to finish. You can also queue jobs back to back by adding the `--dependency=afterok:[jobid]` flag. This flag tells the scheduler, only run this script if the previous job ran successfully.
+
+For example:\
+```
+(base) [mtecson@dt-login01 0-Building]$ sbatch 0-building.slurm
+Submitted batch job 2337924
+(base) [mtecson@dt-login01 0-Building]$ cd ../1-Map-Preparation
+(base) [mtecson@dt-login01 1-Map-Preparation]$ sbatch 1-map-prep.slurm --dependency=afterok:2337924
+```
+
+The 1-map-prep.slurm script won't run unless the previous 0-building job successfully completes.
