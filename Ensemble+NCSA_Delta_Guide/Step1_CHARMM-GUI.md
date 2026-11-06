@@ -14,7 +14,7 @@ For example, in focused refined reconstructions that only have 1 subunit modeled
 
 ![focusedrefineligands](../assets/Ensemble+NCSA_Delta/screenshots/FocusedRefineExample.png)
 
-![asymunitligands](../assets/Ensemble+NCSA_Delta/screenshots/FocusedRefineExample.png)
+![asymunitligands](../assets/Ensemble+NCSA_Delta/screenshots/AsymUnitEx.png)
 
 Additionally, if modeling only the asymmetric unit, keep ligands within the full composite active site such as a C5 reconstruction in GS keeping the ligands present in the composite active site formed by Chains A and E as well as Chain F and G. 
 
