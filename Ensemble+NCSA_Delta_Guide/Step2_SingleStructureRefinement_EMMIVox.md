@@ -70,3 +70,23 @@ Submitted batch job 2337924
 ```
 
 The 1-map-prep.slurm script won't run unless the previous 0-building job successfully completes.
+
+## Interactive Sessions on NCSA Delta
+Interactive sessions are limited to 1 hour and are ideal to compile code such as rebuilding PLUMED and EMMIVox. Additionally, interactive sessions may also be beneficial for certain short jobs such as `1-refinement/0-Building` and `2-ensemble/1-Analysis`. Fill blanks with relevant information provided by the PI or mentor. 
+
+Navigate to your terminal, instead of using `sbatch` we will use `srun`. 
+```
+srun --partition=gpuA40x4-interactive \
+     --account=______\
+     --time=00:15:00 \
+     --nodes=1 \
+     --ntasks-per-node=1 \
+     --cpus-per-task=8 \
+     --gpus-per-node=1 \
+     --mem=32g \
+     --pty /bin/bash
+```
+
+This will give you a 15 minute interactive session with 8 CPU cores, 1 GPU, and 32GB of RAM.
+
+To load EMMIVox into the environment enter this into terminal: `source /projects/_____/plumed_setup/env/activate_emmivox.sh`
