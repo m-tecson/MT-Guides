@@ -1,5 +1,5 @@
 # Refinement to PDB Deposition and Ensemble Generation Guides
-A place where guides for single structure refinement and EMMIVox are written and shared.
+A place where guides for certain computational tools are written and shared.
 
 Last updated on 11/04/2026\
 Current OS: MacOS 27.2 (Golden Gate)
