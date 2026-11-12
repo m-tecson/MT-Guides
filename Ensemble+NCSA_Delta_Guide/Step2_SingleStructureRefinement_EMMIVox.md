@@ -87,6 +87,6 @@ srun --partition=gpuA40x4-interactive \
      --pty /bin/bash
 ```
 
-This will give you a 15 minute interactive session with 8 CPU cores, 1 GPU, and 32GB of RAM.
+This will give you a 15 minute interactive session with 8 CPU cores, 1 GPU, and 32GB of RAM. You may increase the time allocation up to one hour.
 
 To load EMMIVox into the environment enter this into terminal: `source /projects/_____/plumed_setup/env/activate_emmivox.sh`
