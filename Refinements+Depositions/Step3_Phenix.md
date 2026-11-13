@@ -24,6 +24,27 @@ This guide utilized Phenix ver. 2.2.1-6174
   ## Set-up
   A fresh install of Phenix will prompt you to create your first project and define its directory. Typical structure will be for each paper/project (e.g. Disease Variant 1, Pentamer Paper, ecGS, ASS1). Jobs will allow you to define a title which is where it will be helpful to note the structure and mutant (e.g. Mutant MSO, Mutant turnover, WT apo, WT apo state 1, Decamer, Pentamer).
 
+  ## electronic Ligand Builder and Optimisation Workbench (eLBOW) in Phenix
+  There are several different ways to generate restraint files (`.cif`) using eLBOW. One method is similar to the Grade Web Server using CCD ID values (i.e. ATP, ADP, MG). Navigate to the ligands category, click to expand, then click eLBOW to open the wizard. To use CCD IDs use the following options:
+
+  ![eLBOW_CCDIDsel](../assets/Refinements+Dep/screenshots/eLBOW_selection1.png)
+
+  ![eLBOW_sel2_simpleopt](../assets/Refinements+Dep/screenshots/eLBOW_selection2.png)
+
+  ![eLBOW_CCD](../assets/Refinements+Dep/screenshots/eLBOW_CCDID.png)
+
+  If the previous method also fails and gives you a unknown nonbonded energy error, then it will be ideal to use a PDB file with CONECT records as follows:
+
+  ![eLBOW_PDBsel](../assets/Refinements+Dep/screenshots/eLBOW_PDBsel.png)
+
+  ![eLBOW_sel2](../assets/Refinements+Dep/screenshots/eLBOW_selection2.png)
+
+  ![eLBOW_PDB](../assets/Refinements+Dep/screenshots/eLBOW_PDB.png)
+
+  PHENIX will then write restraint files for all ligands found in the PDB file. It is important to toggle "Process all the non-standard residues in the input file" for eLBOW to successfully run. This is only applicable if you are using a PDB file to generate restraints.
+  
+  You may proceed to RSR or comprehensive cryo-EM validation with these restraint files.
+
   ## Real Space Refinement (RSR)
   Navigate to Real Space Refinement under the Cryo-EM Header, click to expand, then click Real Space Refinement to open a window.
 

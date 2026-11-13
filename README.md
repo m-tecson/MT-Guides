@@ -1,8 +1,8 @@
 # A Variety of Useful Structural Biology Guides
 A place where guides for certain computational tools are written and shared.
 
-Last updated on 11/08/2026\
-Current OS: MacOS 27.2 (Golden Gate)
+Last updated on 11/12/2026\
+Current OS: MacOS 27.2.1 (Golden Gate)
 
 Guides are completed on MacOS, but should be similar on Linux and Windows systems. Submenus may be sorted differently in these operating systems.
 
